@@ -7,23 +7,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="C:\Users\Scar_Face\Documents\GitHub\infinity\style.css">
-    <title>Document</title>
+    <title>Indigo Designs</title>
 </head>
 <body>
     <!--nav bar-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Indigo designs</a>
+            <a href="#home" class="navbar-brand">Indigo Designs</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
  <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About us</a>
+                        <a href="#services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services" class="nav-link">Services we offer</a>
+                        <a href="#about" class="nav-link">About us</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact us</a>
@@ -33,7 +33,7 @@
         </div>
     </nav>
     <!--showcase-->
-<section class="bg-dark text-light p-5 text-center text-sm-start">
+<section id="home" class="bg-dark text-light p-5 text-center text-sm-start">
     <div class="container">
         <div class="d-sm-flex align-items-center justify-contents-between">
             <div>
@@ -48,9 +48,10 @@
     </div>
 </section>
 
-<!--boxes-->
-<section class="p-5">
+<!--services-->
+<section  id="services" class="p-5">
     <div class="container">
+        <h2 class="p-5 align-items-center text-center text-dark text-lead">Services we provide</h2>
         <div class="row text-center">
             <div class="col-md mb-3">
                 <div class="card bg-dark text-light">
@@ -62,7 +63,7 @@
                             Interior design
                         </h3>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam illum, illo dolore ut itaque amet.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quis nostrum assumenda? Veniam praesentium eveniet ab quasi deleniti excepturi consectetur doloribus quidem assumenda fuga eius iure, numquam fugiat dignissimos atque?
                         </p>
                         <a href="#" class="btn btn-primary">Read more</a>
                     </div>
@@ -78,7 +79,7 @@
                             Virtual staging
                         </h3>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam illum, illo dolore ut itaque amet.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint temporibus libero sapiente deleniti nisi, sit eaque explicabo ipsam? Dolores aliquam neque, animi repellat eveniet fuga? Fugit laborum sunt quo perspiciatis!
                         </p>
                         <a href="#" class="btn btn-primary">Read more</a>
                     </div>
@@ -94,7 +95,7 @@
                             Furniture fabrication
                         </h3>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam illum, illo dolore ut itaque amet.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, hic aliquid impedit ex consequatur, laborum esse voluptatibus debitis, provident ut exercitationem aut error doloremque blanditiis! Quidem esse doloribus possimus similique!
                         </p>
                         <a href="#" class="btn btn-primary">Read more</a>
                     </div>
@@ -104,14 +105,66 @@
     </div>
 </section>
 
+<!--Frequently Asked Questions-->
+<section class="p-5 align-items-center">
+<div class="container">
+   <h2 class="text-center mb4">Frequently Asked Questions</h2>
+   <div class="accordion accordion-flush" id="questions">
+
+    <!--Question 1-->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+          first question
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse"  data-bs-parent="#questions">
+        <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, nisi consequatur? Magnam nihil voluptatibus, at laudantium necessitatibus explicabo soluta, et totam in similique dolorum eveniet aspernatur optio hic officiis itaque!
+        </div>
+      </div>
+    </div>
+
+    <!--Question 2-->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+          second question
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eius obcaecati, id ipsam quas deserunt dicta perspiciatis veniam exercitationem voluptatibus ullam quisquam eaque, eligendi nobis facere excepturi dolorem repellendus ea.
+        </div>
+      </div>
+    </div>
+
+    <!--Question 3-->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+        third question
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum repellendus debitis ex, quidem suscipit rem assumenda. Eius doloribus, magnam mollitia voluptas ipsum autem molestias vero fugiat, consectetur distinctio labore veniam?
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</section>
+
 <!--About us-->
-<section id="about" class="p-5">
+<section id="about" class="p-5 bg-dark">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md">
-                <img src="pics/Wallpaper4.png" class="img-fluid" alt="">
+                <img src="pics/Wallpaper6.jpg" class="img-fluid" alt="">
             </div>
-            <div class="col-md p-5">
+            <div class="col-md p-5 text-light">
                 <h2>About Indigo Designs</h2>
                 <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deleniti amet velit nesciunt earum aspernatur.
@@ -126,11 +179,10 @@
         </div>
     </div>
 </section>
-<section id="about" class="p-5 bg-dark ">
+<section id="about" class="p-5">
     <div class="container">
         <div class="row align-items-center justify-content-between">
-
-            <div class="col-md p-5 text-light">
+            <div class="col-md p-5">
                 <h2>Experience an eye catching sorrounding</h2>
                 <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deleniti amet velit nesciunt earum aspernatur.
@@ -143,11 +195,20 @@
                 </a>
             </div>
             <div class="col-md">
-                <img src="pics/Wallpaper6.jpg" class="img-fluid" alt="">
+                <img src="pics/Wallpaper4.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
 </section>
+
+<!--footer-->
+<footer class="p-5 bg-dark text-light text-center position-relative">
+    <div class="container">
+        <P></P>
+        <P class="lead">Copy Right &copy; 2022</P>
+        
+    </div>
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
